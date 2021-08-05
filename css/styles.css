@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+.LOGO{
+	width:  379px;
+	height: 100px;
+}
+
+.iconfb{
+	width: 34px;
+}
+
+.iconig{
+	width: 50px;
+}
+
+.img-carousel {
+    max-width: 70%;
+    height: 408px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-container {
+	text-align: center;
+}
+
+nav {
+	bbackground: rgb(239,238,234);
+  background: linear-gradient(90deg, rgba(239,238,234,1) 12%, rgba(239,238,234,1) 44%, rgba(53,51,80,1) 71%);;
+}
+
+a {
+	color: white;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.grow:active {
+  transform: scale(.90);
+}
+
+.espaciado{
+  padding: 100px 0;
+}
