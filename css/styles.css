@@ -32,10 +32,9 @@
 }
 
 nav {
-	bbackground: rgb(239,238,234);
-  background: linear-gradient(90deg, rgba(239,238,234,1) 12%, rgba(239,238,234,1) 44%, rgba(53,51,80,1) 71%);;
+background: rgb(239,238,234);
+background: linear-gradient(70deg, rgba(239,238,234,1) 35%, rgba(243,188,140,1) 57%, rgba(101,130,130,1) 78%);
 }
-
 a {
 	color: white;
 }
@@ -58,4 +57,18 @@ a {
 
 .espaciado{
   padding: 100px 0;
+}
+
+
+
+.excel-frame {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  display: block;
+}
+
+.excel-container {
+  padding-right: 100px;
+  padding-left: 100px;
 }
