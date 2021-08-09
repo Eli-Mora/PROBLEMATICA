@@ -6,8 +6,17 @@ footer {
   width: 100%;
   color: #fff;
   background-color: #000;
-  
 }
+
+nav {
+background: rgb(239,238,234);
+background: linear-gradient(90deg, rgba(239,238,234,1) 40%, rgba(243,188,140,1) 65%, rgba(101,130,130,1) 80%);
+}
+body {
+  background: rgb(239,238,234);
+  background: linear-gradient(180deg, rgba(239,238,234,1) 25%, rgba(255,142,43,1) 50%, rgba(101,130,130,1) 80%);
+}
+
 .box{
     width: 100%;
     display: flex;
