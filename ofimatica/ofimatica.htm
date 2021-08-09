@@ -8,20 +8,24 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="ofimatica_archivos/filelist.xml">
+<link rel=File-List href="Ofimatica_archivos/filelist.xml">
 <![if !supportTabStrip]>
-<link id="shLink" href="ofimatica_archivos/sheet001.htm">
-<link id="shLink" href="ofimatica_archivos/sheet002.htm">
+<link id="shLink" href="Ofimatica_archivos/sheet001.htm">
+<link id="shLink" href="Ofimatica_archivos/sheet002.htm">
+<link id="shLink" href="Ofimatica_archivos/sheet003.htm">
+<link id="shLink" href="Ofimatica_archivos/sheet004.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=2;
+ var c_lTabs=4;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Nómina";
- c_rgszSh[1] = "Checador";
+ c_rgszSh[0] = "DATOS";
+ c_rgszSh[1] = "RELOJ";
+ c_rgszSh[2] = "REGISTRO";
+ c_rgszSh[3] = "NOMINA";
 
 
 
@@ -51,7 +55,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -299,19 +303,28 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Nómina</x:Name>
-    <x:WorksheetSource HRef="ofimatica_archivos/sheet001.htm"/>
+    <x:Name>DATOS</x:Name>
+    <x:WorksheetSource HRef="Ofimatica_archivos/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Checador</x:Name>
-    <x:WorksheetSource HRef="ofimatica_archivos/sheet002.htm"/>
+    <x:Name>RELOJ</x:Name>
+    <x:WorksheetSource HRef="Ofimatica_archivos/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>REGISTRO</x:Name>
+    <x:WorksheetSource HRef="Ofimatica_archivos/sheet003.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>NOMINA</x:Name>
+    <x:WorksheetSource HRef="Ofimatica_archivos/sheet004.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
-  <x:Stylesheet HRef="ofimatica_archivos/stylesheet.css"/>
+  <x:Stylesheet HRef="Ofimatica_archivos/stylesheet.css"/>
   <x:WindowHeight>6915</x:WindowHeight>
   <x:WindowWidth>10245</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -319,8 +332,8 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="ofimatica_archivos/sheet001.htm" name="frSheet">
- <frame src="ofimatica_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="Ofimatica_archivos/sheet002.htm" name="frSheet">
+ <frame src="Ofimatica_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
    <p>Esta página utiliza marcos que su explorador no admite.</p>
